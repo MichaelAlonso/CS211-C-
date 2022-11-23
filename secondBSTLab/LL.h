@@ -3,7 +3,7 @@
 #include <string>
 
 using namespace std;
-typedef int el_t; //change it to char
+typedef int el_t; //make sure to change it back to int 
 struct Node {
   el_t elem;
   Node* next;
